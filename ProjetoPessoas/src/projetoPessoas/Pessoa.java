@@ -3,7 +3,7 @@ public abstract class Pessoa {
     private String nome, sexo;
     private int idade;
     public final void fazerAniver(){
-        this.idade ++;
+        this.idade++;
     }
 
     @Override

@@ -8,6 +8,7 @@ public class ProjetoPessoas {
         Bolsista p1 = new Bolsista();
         
         p2.setNome("Maria");
+        p1.setIdade(20);
         p2.setCurso("Informática");
         p2.setIdade(22);
         p2.setSexo("Feminino");
@@ -19,6 +20,7 @@ public class ProjetoPessoas {
         p1.renovarBolsa();
         
         p2.setCurso("Informática");
+        p2.fazerAniver();
         p3.setSalario(2500.75);
         
         System.out.println(p2.toString());
