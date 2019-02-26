@@ -5,8 +5,8 @@ public class Principal {
         Animal r = new Reptil();
         Peixe p = new Peixe();
         Ave a = new Ave();
-        
-        m.setIdade(2);
+        // Polimorfismo por sobreposicao:
+        /*m.setIdade(2);
         m.setPeso(2.67f);
         m.alimentar();
         m.emitirSom();
@@ -38,6 +38,15 @@ public class Principal {
         a.setPeso(0.94f);
         a.alimentar();
         a.emitirSom();
-        a.locomover();
+        a.locomover();*/
+        // em baixo sao casos de Poliformismo por sobrecarga:
+        Poodle toto = new Poodle();
+        toto.reagir("Olá");
+        toto.reagir("Vira-lata");
+        toto.reagir(true);
+        toto.reagir(false);
+        toto.reagir(6);
+        toto.reagir(20);
+        toto.reagir(16);
     }
 }
